@@ -1,7 +1,7 @@
 <?php
 include 'db.php';
 
-$apiKey = 'b1d55e72837a9a9de13ec706384b3311';
+$apiKey = 'b1d55e72837a9a9de13ec706384b3310';
 
 // Veritabanından cihazları al
 $query = $pdo->query("SELECT id, ip_address FROM devices");
